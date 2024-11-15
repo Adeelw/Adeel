@@ -22,7 +22,7 @@ def main():
         sys.exit(1)
     
 
-#doing for testing purpose
+#doing for testing purpose once again
 
 
 def check_root_full():
