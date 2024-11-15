@@ -29,6 +29,9 @@ def main():
     for check, msg in checks:
         if check():
             print(msg)
+            evertying_ok = False
+            sys.exit(1)
+        if not everything_ok:
             sys.exit(1)
 
         
